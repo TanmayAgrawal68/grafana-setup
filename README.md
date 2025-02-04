@@ -101,7 +101,7 @@ scrape_configs:
     static_configs:
       - targets: ['cadvisor:8080']
 
-
+```
 
 # Setting up Grafana Dashboards
 ## Once your Prometheus, Node Exporter, Blackbox Exporter, and cAdvisor containers are up and running, you can add them to Grafana for visualization. Here’s how to do it:
